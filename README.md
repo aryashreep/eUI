@@ -14,7 +14,7 @@ Fabricator is a tool for building website UI and UX toolkits - _think ["Tiny Boo
 ## Quick Start
 
 ```shell
-$ git clone https://github.com/fbrctr/fabricator/archive/master.tar.gz
+$ git clone https://github.com/aryashreep/eUX.git
 $ cd fabricator
 $ npm start
 ```
