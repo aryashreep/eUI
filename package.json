@@ -1,28 +1,34 @@
 {
-  "name": "fabricator",
+  "name": "eTechBuddy",
   "version": "1.3.1",
-  "description": "A tool for building website UI toolkits",
+  "description": "eTechBuddy is Aryashree Pritikrishna's portfolio and blogging site.",
   "license": "MIT",
-  "homepage": "http://fbrctr.github.io/",
+  "homepage": "http://www.etechbuddy.com/",
+  "main": "README.md",
   "scripts": {
+    "gulp": "gulp",
+    "bower": "bower",
     "prestart": "npm install",
-    "build": "npm run prestart && gulp",
+    "build": "npm install && gulp",
     "start": "gulp --dev",
+    "postinstall": "bower install",
     "test": "npm run build"
   },
   "keywords": [
-    "toolkit",
-    "styleguide",
-    "framework",
-    "scaffold",
-    "patterns",
-    "library"
+    "eTechBuddy",
+    "Open Source",
+    "Drupal",
+    "PHP",
+    "MySql",
+    "Docker",
+	"Blog",
+	"Portfolio"
   ],
-  "author": "Luke Askew",
+  "author": "Aryashree Pritikrishna",
   "licenses": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fbrctr/fabricator.git"
+    "url": "https://github.com/aryashreep/eUX.git"
   },
   "engines": {
     "node": ">=4.0",
@@ -48,9 +54,14 @@
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-util": "^3.0.7",
+    "markdown-it": "^4.1.0",
+    "markdown-it-headinganchor": "lukeaskew/markdown-it-headinganchor",	
     "imports-loader": "^0.6.5",
     "run-sequence": "^1.2.1",
     "script-loader": "^0.7.0",
+    "streamqueue": "^0.1.3",
+    "string": "^3.3.0",
+    "vinyl-source-stream": "^1.1.0",	
     "webpack": "^1.13.1"
   }
 }
