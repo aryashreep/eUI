@@ -12,6 +12,7 @@
 Fabricator is a tool for building website UI and UX toolkits - _think ["Tiny Bootstraps, for Every Client"](http://daverupert.com/2013/04/responsive-deliverables/#tiny-bootstraps-for-every-client)_
 
 ## Quick Start
+First install the [Git](https://git-scm.com/downloads) and [Node.js](https://git-scm.com/downloads).
 
 ```shell
 $ git clone https://github.com/aryashreep/eUX.git
