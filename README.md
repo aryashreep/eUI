@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/aryashreep/eUX.svg)](https://travis-ci.org/aryashreep/eUX)
 
 <p align="center">
-  <img src="http://fbrctr.github.io/assets/toolkit/images/logo.svg" width="500">
+  <img src="http://www.etechbuddy.com/assets/img/logo.png">
 </p>
 
 # Fabricator
