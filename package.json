@@ -6,12 +6,9 @@
   "homepage": "http://www.etechbuddy.com/",
   "main": "README.md",
   "scripts": {
-    "gulp": "gulp",
-    "bower": "bower",
     "prestart": "npm install",
-    "build": "npm install && gulp",
+    "build": "npm run prestart && gulp",
     "start": "gulp --dev",
-    "postinstall": "bower install",
     "test": "npm run build"
   },
   "keywords": [
