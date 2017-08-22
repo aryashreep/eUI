@@ -22,7 +22,8 @@ $ npm start
 Developed by [Aryashree Pritikrishna](http://twitter.com/aryashreep)
 
 ## Credits
-## Fabricator > _fabricate_ - to make by assembling parts or sections.
+[Fabricator](http://fbrctr.github.io/) 
+> _fabricate_ - to make by assembling parts or sections.
 Created by [Luke Askew](http://twitter.com/lukeaskew).
 
 ## License
