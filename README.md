@@ -7,8 +7,6 @@
 
 # eTechBuddy.com
 
-> _fabricate_ - to make by assembling parts or sections.
-
 eTechBuddy.com is Arya's portfolio and blogging site. - _think ["Technology can be our best friend, and technology can also be the biggest party pooper of our lives."](http://etechbuddy.com)_
 
 ## Quick Start
@@ -24,7 +22,7 @@ $ npm start
 Developed by [Aryashree Pritikrishna](http://twitter.com/aryashreep)
 
 ## Credits
-
+## Fabricator > _fabricate_ - to make by assembling parts or sections.
 Created by [Luke Askew](http://twitter.com/lukeaskew).
 
 ## License
