@@ -14,7 +14,7 @@ First install the [Git](https://git-scm.com/downloads) and [Node.js](https://git
 
 ```shell
 $ git clone https://github.com/aryashreep/eUX.git
-$ cd fabricator
+$ cd eUX
 $ npm start
 ```
 ## Author
