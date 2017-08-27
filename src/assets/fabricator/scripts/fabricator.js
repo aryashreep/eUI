@@ -241,7 +241,7 @@ fabricator.allItemsToggles = () => {
 
   // persist toggle options from page to page
   Object.keys(options.toggles).forEach((key) => {
-    toggleAllItems(key, options.toggles[key]);
+    //toggleAllItems(key, options.toggles[key]);
   });
 
   return fabricator;
@@ -331,7 +331,7 @@ fabricator.setInitialMenuState = () => {
  */
 fabricator
  .setInitialMenuState()
- .menuToggle()
+ //.menuToggle()
  .allItemsToggles()
  .singleItemToggle()
  .buildColorChips()

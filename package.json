@@ -18,8 +18,8 @@
     "PHP",
     "MySql",
     "Docker",
-	"Blog",
-	"Portfolio"
+    "Blog",
+    "Portfolio"
   ],
   "author": "Aryashree Pritikrishna",
   "licenses": "MIT",
@@ -36,6 +36,8 @@
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-2": "^6.5.0",
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
     "browser-sync": "^2.13.0",
     "del": "^2.2.1",
     "eslint": "^2.13.1",
@@ -51,14 +53,20 @@
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-util": "^3.0.7",
-    "markdown-it": "^4.1.0",
-    "markdown-it-headinganchor": "lukeaskew/markdown-it-headinganchor",	
     "imports-loader": "^0.6.5",
+    "ionicons-npm": "^2.0.1",
+    "jquery": "^3.2.1",
+    "markdown-it": "^4.1.0",
+    "markdown-it-headinganchor": "lukeaskew/markdown-it-headinganchor",
+    "owl.carousel": "^2.2.0",
     "run-sequence": "^1.2.1",
     "script-loader": "^0.7.0",
     "streamqueue": "^0.1.3",
     "string": "^3.3.0",
-    "vinyl-source-stream": "^1.1.0",	
+    "vinyl-source-stream": "^1.1.0",
     "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "markdown-it-headinganchor": "github:lukeaskew/markdown-it-headinganchor"
   }
 }

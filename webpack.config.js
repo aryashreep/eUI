@@ -10,6 +10,7 @@ const webpack = require('webpack');
 function getPlugins(isDev) {
 
   const plugins = [
+    new webpack.ProvidePlugin({ jQuery: 'jquery' }),
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.DefinePlugin({}),
   ];
@@ -42,6 +43,10 @@ function getLoaders() {
     test: /(\.js)/,
     exclude: /(node_modules)/,
     loaders: ['babel'],
+  }, {
+	test: /\.scss$/,  
+	exclude: /(node_modules)/,
+	loaders: ['bootstrap-sass'],
   }, {
     test: /(\.jpg|\.png)$/,
     loader: 'url-loader?limit=10000',

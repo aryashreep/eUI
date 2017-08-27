@@ -40,7 +40,7 @@ const config = {
       src: './src/assets/toolkit/scripts/toolkit.js',
       dest: 'dist/assets/toolkit/scripts',
       watch: 'src/assets/toolkit/scripts/**/*',
-    },
+    },	
   },
   images: {
     toolkit: {
@@ -58,7 +58,6 @@ const config = {
 
 // clean
 gulp.task('clean', del.bind(null, [config.dest]));
-
 
 // styles
 gulp.task('styles:fabricator', () => {
@@ -116,10 +115,9 @@ gulp.task('images', ['favicon'], () => {
 });
 
 gulp.task('favicon', () => {
-  return gulp.src('src/favicon.ico')
+  return gulp.src(['src/favicon.ico', 'src/manifest.json'])
   .pipe(gulp.dest(config.dest));
 });
-
 
 // assembler
 gulp.task('assembler', (done) => {
@@ -130,6 +128,11 @@ gulp.task('assembler', (done) => {
   done();
 });
 
+// Fonts
+gulp.task('fonts', function() {
+    return gulp.src(['src/assets/toolkit/fonts/ionicons.*'])
+    .pipe(gulp.dest('dist/assets/toolkit/fonts/'));
+});
 
 // server
 gulp.task('serve', () => {
@@ -166,6 +169,7 @@ gulp.task('default', ['clean'], () => {
     'scripts',
     'images',
     'assembler',
+	'fonts',
   ];
 
   // run build

@@ -46,7 +46,7 @@
 
 	'use strict';
 	
-	__webpack_require__(1);
+	__webpack_require__(2);
 	
 	/**
 	 * Global `fabricator` object
@@ -273,7 +273,7 @@
 	
 	  // persist toggle options from page to page
 	  Object.keys(options.toggles).forEach(function (key) {
-	    toggleAllItems(key, options.toggles[key]);
+	    //toggleAllItems(key, options.toggles[key]);
 	  });
 	
 	  return fabricator;
@@ -353,16 +353,19 @@
 	/**
 	 * Initialization
 	 */
-	fabricator.setInitialMenuState().menuToggle().allItemsToggles().singleItemToggle().buildColorChips().setActiveItem().bindCodeAutoSelect();
+	fabricator.setInitialMenuState()
+	//.menuToggle()
+	.allItemsToggles().singleItemToggle().buildColorChips().setActiveItem().bindCodeAutoSelect();
 
 /***/ }),
-/* 1 */
+/* 1 */,
+/* 2 */
 /***/ (function(module, exports) {
 
 	'use strict';
 	
 	/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript */
-	self = typeof window !== 'undefined' ? window // if in browser
+	var self = typeof window !== 'undefined' ? window // if in browser
 	: typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope ? self // if in worker
 	: {} // if in node js
 	;
